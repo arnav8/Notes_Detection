@@ -1,10 +1,10 @@
 # Notes_Detection
 
-To solve this problem of detecting notes in an audio file, I went throught the documentation of [Aubio](https://aubio.org/), which contains tons of fucntions that we can use. Using, the aubio python package I came up with this [script](https://github.com/arnav8/Notes_Detection/blob/main/aubio_notes.py) that outputs the notes of an audio along with the timestamps.  
+To solve this problem of detecting notes in an audio file, I went throught the documentation of [Aubio](https://aubio.org/), which contains tons of fucntions that we can use. Using, the aubio python package I came up with this [script](https://github.com/arnav8/Notes_Detection/blob/main/aubio_notes.py) that outputs the notes of an audio along with the timestamps. 
 
 ### [aubio_notes.py](https://github.com/arnav8/Notes_Detection/blob/main/aubio_notes.py):
 * Using Fast Fourier transform and the ``` notes ``` function of the aubio package, i desgined this script that outputs a series of timeframe and detected note at that timeframe. 
-* The performace of the script is depicted in the table below, and it misrecognises only two notes in the audio clip.
+* The performace of the script is depicted in the table below, and it misrecognises only two notes in the audio clip. Test Audio was the [Happy Birthday song](https://www.youtube.com/watch?v=GL3fe5dzeyQ&t=19s).
 
    Time (sec) | Predicted Note  | Actual Note|\
 5.921088  ------>  A#5		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <-----Audio Starts------>\
