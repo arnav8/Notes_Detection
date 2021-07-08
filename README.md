@@ -36,3 +36,12 @@ To solve this problem of detecting notes in an audio file, I went throught the d
 17.531066  ------>  F4          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;F4\
 18.947483  ------>  C#3			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <-----Audio Ends------>\
 
+
+### [Note Recognition In Python - Method 2](https://medium.com/@ianvonseggern/note-recognition-in-python-c2020d0dae24):
+* Lastly, I also came across this [Medium article](https://medium.com/@ianvonseggern/note-recognition-in-python-c2020d0dae24), which tries to solve the same problem. The Code and implemenation for the same came be found [here](https://github.com/ianvonseggern1/note-prediction).
+* Results of this approach are as follows:/
+Actual Notes/
+['E', 'F#', 'G#', 'A', 'E', 'A', 'A', 'B', 'C#', 'D', 'A', 'D', 'D', 'C#', 'B', 'A', 'E', 'A', 'A', 'G#', 'F#', 'E', 'B', 'B', 'E', 'F#', 'E', 'B', 'D#', 'B', 'A', 'G#', 'F#', 'E', 'B', 'E', 'B', 'E', 'B', 'E', 'B', 'E', 'B', 'E']/
+Predicted Notes/
+['E', 'F#', 'G#', 'A', 'A', 'A', 'B', 'C#', 'D', 'A', 'D', 'C#', 'B', 'A', 'E', 'A', 'A', 'G#', 'F#', 'E', 'B', 'B', 'E', 'F#', 'E', 'B', 'D#', 'B', 'A', 'G#', 'F#', 'E', 'B', 'B', 'B', 'B', 'E', 'B', 'E', 'B']/
+Levenshtein distance: 5/44/
