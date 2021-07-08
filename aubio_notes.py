@@ -33,7 +33,7 @@ while True:
     
     if (new_note[0] != 0):
         note_str = ' '.join(["%.2f" % i for i in new_note])
-        if(new_note[2] != -1):
+        if(note_string_notation != -1):
             note_string_notation = midi2note(int(new_note[0]))
             
 
