@@ -22,7 +22,7 @@ tolerance = 0.8
 
 notes_o = notes("default", win_s, hop_s, samplerate)
 
-print("%8s" % "time","[ start","vel","last ]")
+print("%8s" % "time","| Predicted Note")
 
 # total number of frames read
 total_frames = 0
